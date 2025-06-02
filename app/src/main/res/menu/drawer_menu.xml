@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_trusted_contacts_header"
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/trusted_contacts" >
+            <menu
+                android:id="@+id/nav_trusted_contacts_submenu" />
+        </item>
+
+
+        <item
+            android:id="@+id/nav_multilanguage"
+            android:icon="@drawable/ic_language"
+            android:title="@string/language" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

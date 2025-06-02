@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:background="@color/colorBackground">
+
+        <!-- Large Square SOS Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSOS"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:text="@string/sos"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorOnPrimary"
+            app:backgroundTint="@color/colorError"
+            app:cornerRadius="0dp"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Location Sharing Toggle (SwitchCompat) -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_sharing"
+            android:textSize="18sp"
+            android:textColor="@color/colorOnSecondary"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Progress Bar for Voice Activation -->
+        <ProgressBar
+            android:id="@+id/progressBarVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            style="?android:attr/progressBarStyleLarge"
+            android:indeterminate="true"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Four Square Buttons at Bottom -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:useDefaultMargins="true"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_contact"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/add_contact"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorSecondary"
+                android:textColor="@color/colorOnPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCallPolice"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/call_police"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorError"
+                android:textColor="@color/colorOnPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSafePlace"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/safe_place"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorOnPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPanicMode"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/panic_mode"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorPrimaryVariant"
+                android:textColor="@color/colorOnPrimary" />
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

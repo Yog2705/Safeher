@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_and_user_manual"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:textAlignment="gravity"
+        android:textStyle="bold"/>
+</ScrollView>

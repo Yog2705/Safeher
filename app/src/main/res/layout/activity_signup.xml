@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/signupTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/create_account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/edit_text"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@android:drawable/edit_text"/>
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/loginRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account_login"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

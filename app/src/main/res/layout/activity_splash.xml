@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1E6A">
+
+    <TextView
+        android:id="@+id/animatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome\n to SafeHer"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/animatedText"
+        android:layout_marginBottom="-298dp"
+        android:text="Let's stay safe together!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

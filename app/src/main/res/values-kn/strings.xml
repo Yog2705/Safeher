@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Safeher</string>
+    <string name="navigation_drawer_open">ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ತೆರೆಯಿರಿ</string>
+    <string name="navigation_drawer_close">ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಮುಚ್ಚಿರಿ</string>
+    <string name="nav_header_desc">ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಹೆಡರ್ ಬಳಕೆದಾರ ಚಿತ್ರ</string>
+
+    <string name="sos">SOS</string>
+    <string name="location_sharing">ಸ್ಥಳ ಹಂಚಿಕೆ</string>
+    <string name="voice_activation">ಧ್ವನಿ ಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆ</string>
+    <string name="add_contact">ಸಂಪರ್ಕ ಸೇರಿಸಿ</string>
+    <string name="call_police">ಪೊಲೀಸರನ್ನು ಕರೆಮಾಡಿ</string>
+    <string name="safe_place">ಸುರಕ್ಷಿತ ಸ್ಥಳ</string>
+    <string name="panic_mode">ಪ್ಯಾನಿಕ್ ಮೋಡ್</string>
+    <string name="phone_number">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="save_contact">ಸಂಪರ್ಕ ಉಳಿಸಿ</string>
+    <string name="contact_name">ಸಂಪರ್ಕ ಹೆಸರು</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="new_user_sign_up">ಹೊಸ ಬಳಕೆದಾರ? ಸೈನ್ ಅಪ್ ಮಾಡಿ</string>
+    <string name="forgot_password">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?</string>
+    <string name="filter_safe_places">ಸುರಕ್ಷಿತ ಸ್ಥಳಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</string>
+    <string name="already_have_an_account_login">ಈಗಾಗಲೇ ಖಾತೆ ಇದ್ದರೆ? ಲಾಗಿನ್</string>
+    <string name="sign_up">ಸೈನ್ ಅಪ್</string>
+    <string name="create_account">ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="remove_contact">ಸಂಪರ್ಕವನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="user_name">ಬಳಕೆದಾರ ಹೆಸರು</string>
+    <string name="help">ಸಹಾಯ</string>
+    <string name="about">ಬಗ್ಗೆ</string>
+    <string name="home">ಮುಖಪುಟ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="trusted_contacts">ಆಧಾರಿತ ಸಂಪರ್ಕಗಳು</string>
+    <string name="safeher_description">
+SafeHer ಒಬ್ಬ ವ್ಯಕ್ತಿಗತ ಸುರಕ್ಷತಾ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದ್ದು ತ್ವರಿತ ಹಾಗೂ ವಿಶ್ವಾಸಾರ್ಹ ತುರ್ತು ಸಹಾಯವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಇದರಲ್ಲಿ ತಕ್ಷಣದ SOS ಅಲರ್ಟ್‌ಗಳು, ಧ್ವನಿ ಚಲಾವಣೆ, ಶೇಕ್ ಪತ್ತೆ, ಪ್ಯಾನಿಕ್ ಮೋಡ್, ನಂಬಿಕೆಯ ಸಂಪರ್ಕಗಳ ನಿರ್ವಹಣೆ ಮತ್ತು ಸುರಕ್ಷಿತ ಸ್ಥಳ ಪತ್ತೆವಿವೆ. ನಿಮ್ಮ ಸ್ಥಳ ಮತ್ತು ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಕೇವಲ ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳಿಗೆ ಮಾತ್ರ ಸುರಕ್ಷಿತವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.
+</string>
+    <string name="help_and_user_manual">
+ಸಹಾಯ ಮತ್ತು ಬಳಕೆದಾರ ಮಾರ್ಗಸೂಚಿ
+
+1. SOS ಕಳುಹಿಸಲು SOS ಬಟನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಅಥವಾ ಫೋನ್ ಅನ್ನು ಮೂರು ಬಾರಿ ಶೇಕ್ ಮಾಡಿ ಅಥವಾ "safeher help" ಅನ್ನು ಹೇಳಿ.\n\n
+2. "ಸಂಪರ್ಕ ಸೇರಿಸಿ" ಬಟನ್ ಅಥವಾ ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಮೂಲಕ ಸಂಪರ್ಕಗಳನ್ನು ಸೇರಿಸಿ ಅಥವಾ ತೆಗೆದುಹಾಕಿ.\n\n
+3. ಪ್ಯಾನಿಕ್ ಮೋಡ್ ಲೌಡ್ ಸೈರನ್, ಫ್ಲಾಷ್‌ಲೈಟ್ ಮತ್ತು ಪ್ರತಿ 2 ನಿಮಿಷಕ್ಕೊಮ್ಮೆ ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಕಳುಹಿಸುತ್ತದೆ.\n\n
+4. ಫೇಕ್ ಕಾಲ್ ವೈಶಿಷ್ಟ್ಯವು ಅಪಾಯದ ಪರಿಸ್ಥಿತಿಗಳಿಂದ ಹೊರಬರುವಲ್ಲಿ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n
+5. "ಸುರಕ್ಷಿತ ಸ್ಥಳ" ಟ್ಯಾಪ್ ಮಾಡಿ ಹತ್ತಿರದ ಪೊಲೀಸ್ ಠಾಣೆ ಅಥವಾ ಆಸ್ಪತ್ರೆಗೆ ಹೋಗಿ.\n\n
+6. ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಕೇವಲ SOS ಅಥವಾ ಪ್ಯಾನಿಕ್ ಮೋಡ್‌ನಲ್ಲಿ ಹಂಚಲಾಗುತ್ತದೆ.\n\n
+7. ಅಪ್ಲಿಕೇಶನ್ ಅನುಮತಿಗಳು: ಸ್ಥಳ, SMS, ಮೈಕ್ರೋಫೋನ್, ಸಂಪರ್ಕಗಳು.\n\n
+8. ಮುಖ್ಯಸ್ಕ್ರೀನ್‌ನ "ಪೊಲೀಸರನ್ನು ಕರೆಮಾಡಿ" ಬಳಸಿ ಸಹಾಯ ಪಡೆಯಿರಿ.\n\n
+9. SafeHer ಬಹುಭಾಷಾ ಬೆಂಬಲ ಹೊಂದಿದೆ ಮತ್ತು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡುತ್ತದೆ.\n\n
+10. SOS SMS ಆಫ್‌ಲೈನ್ ಕೆಲಸ ಮಾಡುತ್ತದೆ; ಸ್ಥಳ ಹಂಚಿಕೆ GPS ಅಥವಾ ಇಂಟರ್‌ನೆಟ್ ಅಗತ್ಯವಿದೆ.\n\n
+11. GPS ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ, ಸ್ಥಳವಿಲ್ಲದೆ SOS ಕಳುಹಿಸಲಾಗುತ್ತದೆ.\n\n
+12. ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಮೂಲಕ ಲಾಗ್ ಔಟ್ ಮಾಡಿ.\n\n
+13. ಸಹಾಯಕ್ಕಾಗಿ support@safeher.com ಗೆ ಇಮೇಲ್ ಮಾಡಿ.\n\n
+</string>
+    <string name="search">ಹುಡುಕಿ</string>
+    <string name="show_all">ಎಲ್ಲಾ ತೋರಿಸಿ</string>
+    <string-array name="place_types">
+        <item>ತಯಾರನ್ನು ಆಯ್ಕೆಮಾಡಿ</item>
+        <item>ಪೊಲೀಸ್ ಠಾಣೆ</item>
+        <item>ಆಸ್ಪತ್ರೆ</item>
+        <item>ಅಗ್ನಿಶಾಮಕ ಕೇಂದ್ರ</item>
+        <item>ಎಟಿಎಂ</item>
+        <item>ಫಾರ್ಮಸಿ</item>
+        <item>ಹೋಟೆಲ್</item>
+    </string-array>
+</resources>

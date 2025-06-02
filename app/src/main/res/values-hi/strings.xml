@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Safeher</string>
+    <string name="navigation_drawer_open">नेविगेशन ड्रॉअर खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="nav_header_desc">नेविगेशन ड्रॉअर हेडर यूज़र इमेज</string>
+
+    <string name="sos">SOS</string>
+    <string name="location_sharing">स्थान साझा करना</string>
+    <string name="voice_activation">वॉइस सक्रियण</string>
+    <string name="add_contact">संपर्क जोड़ें</string>
+    <string name="call_police">पुलिस को कॉल करें</string>
+    <string name="safe_place">सुरक्षित स्थान</string>
+    <string name="panic_mode">पैनिक मोड</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="save_contact">संपर्क सहेजें</string>
+    <string name="contact_name">संपर्क नाम</string>
+    <string name="login">लॉगिन</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="new_user_sign_up">नया उपयोगकर्ता? साइन अप करें</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="filter_safe_places">सुरक्षित स्थान फ़िल्टर करें</string>
+    <string name="already_have_an_account_login">पहले से खाता है? लॉगिन करें</string>
+    <string name="sign_up">साइन अप</string>
+    <string name="create_account">खाता बनाएँ</string>
+    <string name="remove_contact">संपर्क हटाएँ</string>
+    <string name="name">नाम</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="help">सहायता</string>
+    <string name="about">बारे में</string>
+    <string name="home">होम</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="language">भाषा</string>
+    <string name="trusted_contacts">विश्वसनीय संपर्क</string>
+    <string name="safeher_description">
+SafeHer एक व्यक्तिगत सुरक्षा ऐप है जो त्वरित और विश्वसनीय आपातकालीन सहायता प्रदान करता है। इसमें तात्कालिक SOS अलर्ट, वॉइस एक्टिवेशन, शेक डिटेक्शन, पैनिक मोड, विश्वसनीय संपर्क प्रबंधन और सुरक्षित स्थान खोज शामिल हैं। आपका स्थान और संपर्क जानकारी केवल आपातकाल के लिए सुरक्षित रूप से उपयोग की जाएगी।
+</string>
+    <string name="help_and_user_manual">
+सहायता और उपयोगकर्ता मार्गदर्शिका
+
+1. SOS भेजने के लिए SOS बटन दबाएँ या फोन को तीन बार हिलाएँ या "safeher help" कहें।\n\n
+2. "संपर्क जोड़ें" बटन या नेविगेशन ड्रॉअर के माध्यम से संपर्क जोड़ें या हटाएँ।\n\n
+3. पैनिक मोड में ज़ोरदार सायरन, फ्लैशलाइट और हर 2 मिनट में आपका स्थान भेजा जाएगा।\n\n
+4. फेक कॉल फ़ीचर खतरनाक स्थितियों से बाहर निकलने में मदद करता है।\n\n
+5. "सुरक्षित स्थान" टैप करके पास के पुलिस स्टेशन या अस्पताल खोजें।\n\n
+6. आपका स्थान केवल SOS अलर्ट या पैनिक मोड में साझा किया जाएगा।\n\n
+7. ऐप अनुमतियाँ: स्थान, SMS, माइक्रोफ़ोन, संपर्क।\n\n
+8. मुख्य स्क्रीन पर "पुलिस को कॉल करें" का उपयोग करें।\n\n
+9. SafeHer बहुभाषी समर्थन देता है और आपके डेटा को सुरक्षित रखता है।\n\n
+10. SOS SMS ऑफ़लाइन काम करता है; स्थान साझा करने के लिए GPS या इंटरनेट आवश्यक है।\n\n
+11. GPS अनुपलब्ध होने पर SOS स्थान के बिना भेजा जाएगा।\n\n
+12. नेविगेशन ड्रॉअर से लॉगआउट करें।\n\n
+13. सहायता के लिए support@safeher.com पर ईमेल करें।\n\n
+</string>
+    <string name="search">खोजें</string>
+    <string name="show_all">सभी दिखाएँ</string>
+    <string-array name="place_types">
+        <item>प्रकार चुनें</item>
+        <item>पुलिस स्टेशन</item>
+        <item>अस्पताल</item>
+        <item>फायर स्टेशन</item>
+        <item>एटीएम</item>
+        <item>फार्मेसी</item>
+        <item>रेस्तरां</item>
+    </string-array>
+</resources>
